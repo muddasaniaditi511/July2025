@@ -1,0 +1,7 @@
+def checkKthBit(n,k):
+    n-(n>>k)
+    if((n&(1))==0):
+        return False
+    return True
+n,k=map(int,input().split())
+print(checkKthBit(n,k))
