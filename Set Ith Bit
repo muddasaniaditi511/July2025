@@ -1,0 +1,5 @@
+def setKthBit(n,k):
+    n=n | (1<<k)   #left operation
+    return n
+n,k=map(int,input().split())
+print(setKthBit(n,k))
